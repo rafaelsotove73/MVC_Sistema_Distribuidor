@@ -1,49 +1,71 @@
-# Explicación Detallada: "El Sol no se Pone en el Imperio Británico"
-
-Esta famosa frase encapsula el poder y la vastedad del Imperio Británico en su apogeo (siglos XIX y principios del XX). Tiene un doble significado: uno literal y geográfico, y otro figurado y simbólico.
-
----
-
-### 1. El Significado Literal: Un Imperio Global
-
-En su nivel más básico, la frase era una afirmación geográfica completamente cierta. El Imperio Británico llegó a ser tan extenso y sus territorios estaban tan dispersos por todo el globo que, **en cualquier momento del día, siempre había alguna parte del imperio donde era de día**.
-
-El recorrido del sol a lo largo de 24 horas lo demuestra:
-
-*   **Amanece en el Pacífico:** El sol ilumina islas como Fiyi.
-*   **Avanza por Oceanía y Asia:** Cubre Nueva Zelanda, Australia, Malasia, Singapur y la "joya de la corona", la India.
-*   **Llega a África y Oriente Medio:** El día continúa en los vastos territorios africanos (Egipto, Sudán, Kenia, Sudáfrica) y mandatos en Oriente Medio.
-*   **Ilumina Europa:** Mientras anochece en Asia, el sol está en lo alto sobre el propio Reino Unido, Gibraltar y Malta.
-*   **Cruza el Atlántico hacia las Américas:** Cuando el sol se pone en Londres, todavía es pleno día en Canadá, las colonias del Caribe (Jamaica, Barbados) y la Guayana Británica.
-
-Debido a esta dispersión, literalmente no había un solo instante en el que el sol estuviera oculto en la totalidad de los territorios bajo dominio británico.
-
-### 2. El Significado Figurado: Poder, Influencia y Perpetuidad
-
-Más allá de la geografía, la frase era una poderosa declaración de orgullo y poderío nacional. Simbolizaba:
-
-*   **Poder Incesante:** Así como el sol, se sugería que la influencia y el poder británicos eran constantes, permanentes y no tenían fin.
-*   **Dominio Global (Pax Britannica):** Reflejaba el control británico sobre las rutas comerciales, la economía mundial y la política internacional, garantizado por la Royal Navy, la marina más poderosa del mundo.
-*   **Influencia Cultural:** El "sol" también se interpretaba como la luz de la "civilización" británica: su idioma (inglés), su sistema legal (*Common Law*), su administración y sus deportes, que se extendían por todo el planeta.
-
-### 3. Origen y Contexto Histórico
-
-Aunque se asocia con los británicos, la idea ya se había usado para describir el **Imperio Español** en el siglo XVI bajo Carlos V y Felipe II. Sin embargo, la frase fue popularizada y adoptada con fervor en el Reino Unido durante la **Era Victoriana (1837-1901)**, un período de máxima expansión y confianza imperial.
-
-### 4. El Declive y el Fin de la Frase
-
-Esta realidad terminó en el siglo XX. El coste de las dos Guerras Mundiales debilitó a Gran Bretaña, y los movimientos nacionalistas en las colonias ganaron fuerza, llevando a un rápido proceso de **descolonización** después de 1945.
-
-*   La independencia de la India en 1947 fue el golpe simbólico más fuerte.
-*   Hoy, el Imperio ha sido reemplazado por la **Commonwealth of Nations (Mancomunidad de Naciones)**, una asociación voluntaria de antiguas colonias.
-
----
-
-### Conclusión
-
-En resumen, la frase **"el sol no se pone en el Imperio Británico"** describe:
-
-1.  **Literalmente:** La enorme extensión geográfica del imperio que garantizaba que siempre fuera de día en alguna de sus partes.
-2.  **Simbólicamente:** La percepción de un poder político, económico y cultural ininterrumpido y de alcance mundial.
-
-Hoy, la frase se usa como una referencia histórica a una era de dominio global que ya ha pasado, evocando tanto la grandeza como el controvertido legado del colonialismo.
+MVC_Sistema_Distribuidor
+Sistema Web para la Gestión de Pedidos de Distribuidores
+Este repositorio contiene el código fuente de una aplicación web desarrollada bajo el patrón MVC (Modelo-Vista-Controlador) con ASP.NET y C#, diseñada para optimizar y agilizar el proceso de solicitud de pedidos para clientes de tipo distribuidor.
+La aplicación se integra directamente con un sistema ERP existente, leyendo y escribiendo en su base de datos SQL Server, lo que garantiza la consistencia de los datos en tiempo real y proporciona a los vendedores una herramienta potente y siempre actualizada.
+✨ Características Principales
+Este sistema web ofrece una solución completa para el ciclo de vida de un pedido de distribuidor, incluyendo:
+** Módulo de Solicitud de Pedidos:** Interfaz centralizada para crear, modificar y gestionar las solicitudes de pedidos.
+** Gestión de Clientes:** Búsqueda y selección de clientes distribuidores directamente desde la base de datos del ERP.
+** Control de Crédito y Bloqueo Automático:** El sistema valida en tiempo real el estado de la cartera del cliente. Si un cliente tiene deudas vencidas, se marca como "CLIENTE BLOQUEADO" y se restringe la creación de nuevos pedidos, mostrando el detalle de las facturas pendientes.
+** Catálogo de Artículos:** Búsqueda y selección de productos (artículos) para agregar al pedido, con filtros por modelo y color.
+** Detalle del Pedido Interactivo:** El detalle del pedido se actualiza dinámicamente a medida que se agregan artículos, calculando subtotales, impuestos (IVA, ICE) y el total general.
+** Gestión de Usuarios:** Un formulario dedicado para administrar los usuarios del sistema, asignándolos a clientes o agentes específicos y definiendo sus roles.
+** Integración Directa con ERP:** Al interactuar con las mismas tablas del ERP, se eliminan los silos de información y se asegura que datos críticos como el inventario, precios y estado del cliente sean siempre precisos.
+📸 Galería de Pantallas
+Un recorrido visual por las funcionalidades clave de la aplicación.
+Módulo de Pedidos	Búsqueda de Clientes
+Interfaz principal para la creación de pedidos.	Modal para buscar y seleccionar un cliente por código o nombre.
+Validación de Cliente Bloqueado	Detalle de Deuda (Cuentas por Cobrar)
+El sistema notifica visualmente si un cliente está bloqueado por deudas.	Popup que muestra las facturas vencidas del cliente bloqueado.
+Búsqueda de Artículos	Pedido en Proceso
+Selección de productos para agregar al pedido.	Vista de un pedido con varios artículos agregados y totales calculados.
+Login de Usuario	Gestión de Usuarios
+Portal de acceso seguro para los usuarios del sistema.	Formulario para la administración de usuarios y sus perfiles.
+🛠️ Stack Tecnológico
+La aplicación está construida sobre tecnologías robustas y probadas de Microsoft y la web.
+Plataforma y Framework:
+.NET Framework 4.8
+ASP.NET MVC 5
+Backend (Controlador y Modelo):
+Lenguaje: C#
+Acceso a Datos: Entity Framework
+Consultas: LINQ (Language Integrated Query)
+Frontend (Vista):
+Maquetación: HTML5 y Razor View Engine
+Estilos: CSS3 y Bootstrap
+Interactividad: JavaScript y jQuery
+Base de Datos:
+Microsoft SQL Server (Compartida con el ERP)
+IDE de Desarrollo:
+Visual Studio 2022
+⚙️ Arquitectura e Integración con ERP
+El proyecto sigue una arquitectura MVC clásica:
+Modelo: Representa los datos de la aplicación (Clientes, Pedidos, Artículos) y la lógica de negocio. Utiliza Entity Framework para mapear las tablas de la base de datos del ERP a objetos C#.
+Vista: La interfaz de usuario construida con HTML, Bootstrap y Razor. Es responsable de presentar los datos al usuario y capturar sus interacciones.
+Controlador: Actúa como intermediario. Recibe las peticiones del usuario desde la Vista, utiliza el Modelo para consultar o manipular datos (usando LINQ to Entities), y devuelve la Vista apropiada.
+La clave de este sistema es su integración directa y en tiempo real con el ERP. Al no tener una base de datos separada, se garantiza que:
+Los estados de cuenta de los clientes están siempre actualizados.
+Los precios y la disponibilidad de los artículos son los correctos.
+Los pedidos generados se reflejan inmediatamente en el sistema central para su procesamiento.
+🚀 Instalación y Puesta en Marcha
+Para ejecutar este proyecto en un entorno de desarrollo local, sigue estos pasos:
+Prerrequisitos:
+Visual Studio 2022 (con la carga de trabajo "Desarrollo de ASP.NET y web").
+.NET Framework 4.8 Developer Pack.
+Acceso a una instancia de SQL Server que contenga la base de datos del ERP.
+Clonar el Repositorio:
+git clone https://github.com/tu-usuario/MVC_Sistema_Distribuidor.git
+cd MVC_Sistema_Distribuidor
+Use code with caution.
+Bash
+Configurar la Conexión a la Base de Datos:
+Abre la solución (.sln) en Visual Studio.
+Busca y abre el archivo Web.config en la raíz del proyecto.
+Localiza la sección <connectionStrings> y modifica la cadena de conexión para que apunte a tu instancia de SQL Server, proporcionando el servidor, nombre de la base de datos, usuario y contraseña correctos.
+Restaurar Paquetes NuGet:
+En el Explorador de Soluciones, haz clic derecho sobre la solución y selecciona "Restaurar paquetes NuGet".
+Compilar y Ejecutar:
+Presiona F5 o haz clic en el botón "Iniciar" de Visual Studio para compilar y lanzar la aplicación en tu navegador web local.
+👨‍💻 Desarrollado por
+Rafael S. Soto S.
+© 2024 - ASP.NET :: Solicitud de Pedidos Vers. 1.003

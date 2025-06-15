@@ -29,7 +29,8 @@ Un recorrido visual por las funcionalidades clave de la aplicación.
 | Módulo de Pedidos | Búsqueda de Clientes |
 | :---: | :---: |
 | *Interfaz principal para la creación de pedidos.* | *Modal para buscar y seleccionar un cliente por código o nombre.* |
-| ![Módulo de Pedidos](https://raw.githubusercontent.com/rafaelsotove73/MVC_Sistema_Distribuidor/main/ProyectoWebMVCDistributor/ScreemPedidoBeginer.jpg) | ![Búsqueda de Clientes](https://raw.githubusercontent.com/rafaelsotove73/MVC_Sistema_Distribuidor/main/ProyectoWebMVCDistributor/ScreenPedidoInProcess_01.jpg) |
+| ![Módulo de Pedidos](https://raw.githubusercontent.com/rafaelsotove73/MVC_Sistema_Distribuidor/main/ProyectoWebMVCDistributor/ScreemPedidoBeginer.jpg) | 
+  ![Búsqueda de Clientes](https://raw.githubusercontent.com/rafaelsotove73/MVC_Sistema_Distribuidor/main/ProyectoWebMVCDistributor/ScreemPedidoInProcess_01.jpg) |
 
 | Validación de Cliente Bloqueado | Detalle de Deuda (Cuentas por Cobrar) |
 | :---: | :---: |

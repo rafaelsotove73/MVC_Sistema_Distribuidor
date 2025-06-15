@@ -29,18 +29,17 @@ Un recorrido visual por las funcionalidades clave de la aplicación.
 | Módulo de Pedidos | Búsqueda de Clientes |
 | :---: | :---: |
 | *Interfaz principal para la creación de pedidos.* | *Modal para buscar y seleccionar un cliente por código o nombre.* |
-| ![Módulo de Pedidos](https://raw.githubusercontent.com/rafaelsotove73/MVC_Sistema_Distribuidor/main/ProyectoWebMVCDistributor/ScreemPedidoBeginer.jpg) | 
-  ![Búsqueda de Clientes](https://raw.githubusercontent.com/rafaelsotove73/MVC_Sistema_Distribuidor/main/ProyectoWebMVCDistributor/ScreemPedidoInProcess_01.jpg) |
+| ![Módulo de Pedidos](https://raw.githubusercontent.com/rafaelsotove73/MVC_Sistema_Distribuidor/main/ProyectoWebMVCDistributor/ScreemPedidoBeginer.jpg) | ![Búsqueda de Clientes](https://raw.githubusercontent.com/rafaelsotove73/MVC_Sistema_Distribuidor/main/ProyectoWebMVCDistributor/ScreemPedidoInProcess_01.jpg) |
 
 | Validación de Cliente Bloqueado | Detalle de Deuda (Cuentas por Cobrar) |
 | :---: | :---: |
 | *El sistema notifica visualmente si un cliente está bloqueado por deudas.* | *Popup que muestra las facturas vencidas del cliente bloqueado.* |
-| ![Cliente Bloqueado](https://raw.githubusercontent.com/rafaelsotove73/MVC_Sistema_Distribuidor/main/ProyectoWebMVCDistributor/ScreenPedidoInProcess_02_clienteConProblemaContable.jpg) | ![Detalle de Deuda](https://raw.githubusercontent.com/rafaelsotove73/MVC_Sistema_Distribuidor/main/ProyectoWebMVCDistributor/ScreenPedidoInProcess_02_clienteConProblemaContable-01.jpg) |
+| ![Cliente Bloqueado](https://raw.githubusercontent.com/rafaelsotove73/MVC_Sistema_Distribuidor/main/ProyectoWebMVCDistributor/ScreemPedidoInProcess_02_clienteConProblemaContable.jpg) | ![Detalle de Deuda](https://raw.githubusercontent.com/rafaelsotove73/MVC_Sistema_Distribuidor/main/ProyectoWebMVCDistributor/ScreemPedidoInProcess_02_clienteConProblemaContable-01.jpg) |
 
 | Búsqueda de Artículos | Pedido en Proceso |
 | :---: | :---: |
 | *Selección de productos para agregar al pedido.* | *Vista de un pedido con varios artículos agregados y totales calculados.* |
-| ![Búsqueda de Artículos](https://raw.githubusercontent.com/rafaelsotove73/MVC_Sistema_Distribuidor/main/ProyectoWebMVCDistributor/ScreenPedidoInProcess_02_lista_articulo.jpg) | ![Pedido en Proceso](https://raw.githubusercontent.com/rafaelsotove73/MVC_Sistema_Distribuidor/main/ProyectoWebMVCDistributor/ScreenPedidoInProcess_03_pedidolleno.jpg) |
+| ![Búsqueda de Artículos](https://raw.githubusercontent.com/rafaelsotove73/MVC_Sistema_Distribuidor/main/ProyectoWebMVCDistributor/ScreemPedidoInProcess_02_lista_articulo.jpg) | ![Pedido en Proceso](https://raw.githubusercontent.com/rafaelsotove73/MVC_Sistema_Distribuidor/main/ProyectoWebMVCDistributor/ScreemPedidoInProcess_03_pedidolleno.jpg) |
 
 | Login de Usuario | Gestión de Usuarios |
 | :---: | :---: |
